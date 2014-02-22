@@ -1,0 +1,18 @@
+package threadChords;
+import javax.sound.*;
+import javax.sound.sampled.*;
+
+public class testOne {
+
+	  public static void main(String[] args) throws Exception {
+		  
+		  Tone[] theTones;
+
+		  theTones = new Tone[2];
+		  
+		  theTones[0] = new Tone(260);
+		  theTones[1] = new Tone(220);
+
+	  }
+}
+
