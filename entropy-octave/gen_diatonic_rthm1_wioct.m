@@ -30,7 +30,7 @@ function gen_diatonic_rthm1_wioct(npitches, bpm, filename)
   %dlmwrite([filename '.score'], [notes, lens], ',');
   fid = fopen([filename '.score'],'w');
   for i = 1:npitches
-    fprintf(fid,'%s\n', [notes{i} ',' int2str(lens(i))]);
+    fprintf(fid,'%s\n', [notes{i} ' ' int2str(lens(i))]);
   end
   
   fclose(fid);
