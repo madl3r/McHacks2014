@@ -1,0 +1,2 @@
+\header{title = "HARRIS.score"} {\time 4/4 
+ \clef bass ges''16 ges''8 cis''16 ais''4 ees''16 b'8 ees'8 gis'4 ees''4 c'''8 a''4 aes''16 d''16 a'16 cis''8 b'2 c'8 c4 f8 cis'8 b2 ges8 e16 gis16 c16 b8 b,4 g,8 g,16 ais,8 g,16 g,8 a,16 e16 d16 g,16 g,16 d8 g,8 g,8 g,8 g,8 g,8 g,16 gis,8 g,4 a,16 g,4 g,16 g,8 g,16 ges2 cis8 e8 fis4 bes,16 des8 d16 ees8 c16 gis,4 fis8 gis,8 cis8 g,4 g,16 g,4 g,16 d8 d'8 cis'16 cis8 dis8 g,16 b,4 fis16 cis8 g,16 g,4 g,8 e8 cis'8 fis'8 ees''16 dis'''2 f'''8 f'''16 b''16 f'''16 a''8 ees''8 gis'16 b'16 g'8 ais'16 fis''4 ais'8 bes16 gis'8 aes''16 }

@@ -1,0 +1,2 @@
+\header{title = "Maxim.score"} {\time 4/4 
+ \clef bass ais'8 f'8 a8 f8 g16 f'16 b4 aes4 a8 gis'16 aes8 b,8 g,16 dis8 b4 e8 g,8 d4 g,8 a,2 g,16 g,16 ees8 b,8 g,8 a,8 a8 f8 a,16 d16 f4 g,8 g,8 g,16 g,16 gis,8 ais,16 b,8 dis16 cis4 g,8 a,16 g,16 des8 g,4 g,16 cis8 g,8 c16 g,8 g,4 b,8 g,8 g,8 g16 a4 g'16 ges'16 e''4 c'''8 d''16 e''8 g''16 f'''16 gis''8 f''8 aes''8 fis''16 f''8 e''4 ges'4 c'8 ees8 g,8 g,16 g4 ees'16 b8 gis16 dis'8 des''4 fis'16 ges''8 cis''16 ais'4 gis'8 a8 a'4 gis''2 f'''4 f'''16 c'''8 des'''8 f'''8 aes''16 d''8 aes'4 d''8 d'''16 ges''4 }

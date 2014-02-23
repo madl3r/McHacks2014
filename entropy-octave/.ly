@@ -1,0 +1,2 @@
+\header{title = "noCommas.score"} {\time 4/4 
+ \clef bass bes'16 c''4 ees''16 b'8 g''16 g''8 g''16 aes'8 e''4 ges''8 gis''8 c''8 d'8 f'8 a'16 des'8 g16 dis'2 a16 d'8 ais16 f'16 des'16 f8 ais4 d'8 g'16 dis'8 fis8 e'8 ees''8 f''16 c''16 c''4 e''16 d''4 b''16 g''8 ees''8 bes''16 f'''4 a''16 ais''8 e''8 g'16 d''16 c'''16 fis''16 bes'8 dis''8 gis''4 ges''8 g''4 dis'''16 g''4 cis''8 d''16 b'8 d'4 g8 ees16 c4 g,16 des16 b,8 des8 b8 f'8 g'8 g'8 bes16 b,4 d16 g,4 gis,16 cis4 g,16 c16 g,8 a,4 c2 des16 gis,4 des8 g,8 g16 gis8 fis16 a16 cis8 c4 g,4 g16 cis'8 aes4 des8 cis8 f8 dis'4 b8 }
