@@ -13,8 +13,9 @@ function gen_diatonic_rthm1_wioct(npitches, bpm, filename)
     key   = max(min((key + keyo),66),20);
     freq  = piano(key);
     freqs = [freqs; freq];
-    nsecs = (2^(-binornd(4,0.25)))*bpm/60;
-    lens  = [lens; 4*round(1/nsecs)]; %writes lilypond-style note length
+    b     = (binornd(4,0.25));
+    nsecs = (2^(b-2))*60/bpm;
+    lens  = [lens; 2^(4-b)]; %writes lilypond-style note length
     wave  = [wave, gen_wave(freq,nsecs)];
   end
 
