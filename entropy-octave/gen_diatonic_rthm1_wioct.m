@@ -1,4 +1,4 @@
-function gen_diatonic_rthm1(npitches, bpm, filename)
+function gen_diatonic_rthm1_wioct(npitches, bpm, filename)
   bps = 16;
   sps = 8000;
   
@@ -7,9 +7,11 @@ function gen_diatonic_rthm1(npitches, bpm, filename)
   wave  = [];
   freqs = [];
   lens  = [];
+  key   = 43;
   for i = 1:npitches
-    key   = unidrnd(43);
-    freq  = piano(key+22);
+    keyo  = unidrnd(25)-13;
+    key   = max(min((key + keyo),66),20);
+    freq  = piano(key);
     freqs = [freqs; freq];
     nsecs = (2^(-binornd(4,0.25)))*bpm/60;
     lens  = [lens; 4*round(1/nsecs)]; %writes lilypond-style note length
@@ -20,3 +22,4 @@ function gen_diatonic_rthm1(npitches, bpm, filename)
 
   dlmwrite([filename '.score'], [freqs, lens], ',');
   wavwrite(wave, sps, bps, [filename '.wav']);
+
