@@ -1,7 +1,7 @@
 function score = gen_notes(filename)
 
 score = []
-score = [score "\\header{title = \"" filename "\"} {\\time 4/4 \n \\clef bass "]
+score = [score "\\header{title = \"" filename "\"} {\\time 4/4 \n \\clef treble "]
 
 fopen(filename)
 
